@@ -1,6 +1,4 @@
-import Algorithms.AbstractAlgoritm;
-import Algorithms.BiednyCamelCase;
-import Algorithms.Test;
+import Algorithms.*;
 
 /**
  * Created by RENT on 2017-07-21.
@@ -13,6 +11,18 @@ public class AlgoritmFabric {
                 return new Test();
             case "biednycamelcase":{
                 return new BiednyCamelCase();
+            }
+            case "sumujemyliczbynaturalne":{
+                return new SumowanieLiczNaturalnych();
+            }
+            case "sumaliczb":{
+                return  new SumaLiczb();
+            }
+            case "money":{
+                return new Money();
+            }
+            case "rok":{
+                return  new Rok();
             }
 
                 default:
