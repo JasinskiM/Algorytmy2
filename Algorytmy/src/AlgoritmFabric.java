@@ -12,6 +12,18 @@ public class AlgoritmFabric {
             case "biednycamelcase":{
                 return new BiednyCamelCase();
             }
+            case "cezar":{
+                return new SzyfCezara();
+            }
+            case "spacje":{
+                return new SpacjeCamelCase();
+            }
+            case "fib":{
+                return new Fibonaczi();
+            }
+            case "sumajednosci":{
+                return new SumaJednosci();
+            }
             case "sumujemyliczbynaturalne":{
                 return new SumowanieLiczNaturalnych();
             }
@@ -23,6 +35,12 @@ public class AlgoritmFabric {
             }
             case "rok":{
                 return  new Rok();
+            }
+            case "silnia":{
+                return new Silnia();
+            }
+            case "sumowanierek":{
+                return new SumowanieRekurencja();
             }
 
                 default:

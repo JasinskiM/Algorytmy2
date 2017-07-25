@@ -20,5 +20,6 @@ public class SumowanieLiczNaturalnych extends AbstractAlgoritm{
             i++;
         }
         System.out.println(sum);
+
     }
 }
