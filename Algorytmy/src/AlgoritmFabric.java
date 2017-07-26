@@ -15,6 +15,15 @@ public class AlgoritmFabric {
             case "cezar":{
                 return new SzyfCezara();
             }
+            case "sortowanie":{
+                return new Sortowanie();
+            }
+            case "palindromy":{
+                return new Palindromy();
+            }
+            case "sortpunkt":{
+                return new SortowaniePunktu();
+            }
             case "spacje":{
                 return new SpacjeCamelCase();
             }
