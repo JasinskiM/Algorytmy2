@@ -15,6 +15,15 @@ public class AlgoritmFabric {
             case "cezar":{
                 return new SzyfCezara();
             }
+            case "zliczanie":{
+                return new SortowaniePrzezZliczanie();
+            }
+            case "krzyzowka":{
+                return new Krzyzowka();
+            }
+            case "jasiu":{
+                return new DzialkaJasia();
+            }
             case "sortowanie":{
                 return new Sortowanie();
             }
