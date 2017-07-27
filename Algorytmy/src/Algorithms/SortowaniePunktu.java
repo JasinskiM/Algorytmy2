@@ -53,7 +53,7 @@ public class SortowaniePunktu extends AbstractAlgoritm {
             int punkt = tablicaWynikow[i][0];
             for (int j = 0; j<n;j++){
                 if (punkt == tablicaPunktow[j][0])
-                System.out.printf("Punkt: %d; X: %d; Y: %d\n",punkt);
+                System.out.printf("Punkt: %d; X: %d; Y: %d\n",punkt,tablicaPunktow[j][1],tablicaPunktow[j][2]);
             }
         }
 
