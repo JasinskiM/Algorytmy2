@@ -15,6 +15,15 @@ public class AlgoritmFabric {
             case "cezar":{
                 return new SzyfCezara();
             }
+            case "rand":{
+                return new TabliceCw();
+            }
+            case "wielkanoc":{
+                return new Wielkanoc();
+            }
+            case "najwiekszywspolnydzielnik":{
+                return new NajwiekszyWspolnyDzielnik();
+            }
             case "zliczanie":{
                 return new SortowaniePrzezZliczanie();
             }
