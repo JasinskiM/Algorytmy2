@@ -12,6 +12,9 @@ public class AlgoritmFabric {
             case "biednycamelcase":{
                 return new BiednyCamelCase();
             }
+            case "tablice":{
+                return new Tablice();
+            }
             case "cezar":{
                 return new SzyfCezara();
             }

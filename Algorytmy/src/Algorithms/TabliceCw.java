@@ -19,6 +19,7 @@ public class TabliceCw extends AbstractAlgoritm {
         int index = 0;
         int index2 = 0;
         for (int i = 0; i < numbers.length; i++) {
+
             if (numbers[i] > max) {
                 max = numbers[i];
                 index = i;
