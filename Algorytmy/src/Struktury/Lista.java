@@ -119,4 +119,33 @@ public class Lista {
             list.counter++;
         }
     }
+    public void deleteElement(int elementToDelete, Lista list){
+        Element toDelete = list.getElementForward(elementToDelete, list);
+
+        list.counter--;
+        if(toDelete.prev != null)
+        {
+            Element prevOfDelete = toDelete.prev;
+            prevOfDelete.next = toDelete.next;
+        }
+        else
+        {
+            list._head = toDelete.next;
+        }
+
+        if(toDelete.next != null)
+        {
+            Element nextOfDelete = toDelete.next;
+            nextOfDelete.prev = toDelete.prev;
+
+        }
+        else
+        {
+            list._tail = toDelete.prev;
+        }
+
+        toDelete = null;
+
+    }
+
 }

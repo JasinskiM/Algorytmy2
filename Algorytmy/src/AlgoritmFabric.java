@@ -12,6 +12,15 @@ public class AlgoritmFabric {
             case "biednycamelcase":{
                 return new BiednyCamelCase();
             }
+            case "zadarray":{
+                return new ZadArrayList();
+            }
+            case "zmiennetablice":{
+                return new zmienneTablice();
+            }
+            case "testowanielisty":{
+                return new TestowanieListy();
+            }
             case "tablice":{
                 return new Tablice();
             }
